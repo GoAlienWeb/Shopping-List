@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Grocery List from Alien Web Development</title>
+    <link rel="stylesheet" href="c07.css" />
+  </head>
+  <body>
+    <div id="page">
+      <h1 id="header"></h1>
+      <h2>Family Grocery List <span id="counter"></span></h2>
+      <ul>
+        <li id="one" class="hot">Milk</li>
+        <li id="two" class="hot">Eggs</li>
+        <li id="three" class="hot">Bread</li>
+        <li id="four">Beer</li>
+      </ul>
+      <div id="newItemButton"><button href="#" id="showForm">add</button></div>
+      <form id="newItemForm">
+        <input type="text" id="itemDescription" placeholder="Type List Item Here" />
+        <input type="submit" id="add" value="add" />
+      </form>
+    </div>
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
